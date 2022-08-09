@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #00c49a;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    margin-left: auto;
+}
+
+#gh-logo{
+    width: 40px;
+    height: auto;
+    margin-bottom: -8px;
+}
+
+h1{
+    font-size: 70px;
+    color: #156064;
+    /* text-shadow: 3px 3px #f8e16c; */
+    margin-top: 10px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #efefef;
+    font-family: 'Mouse Memoirs', sans-serif;
+    margin-bottom: 15px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 575px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color: #efefef;
+    border-radius: 10px;
+    box-shadow: 10px 10px #156064;
+}
+
+
+button{
+    width: 150px;
+    font-size: 20px;
+    outline: none;
+    text-align: center;
+    font-family: 'Share Tech', sans-serif;
+
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #efefef;
+    box-shadow: 3px 3px 4px #c8d0e7, -2px -2px 4px #fff;
+    color: #585858;
+}
+
+button:active {
+    box-shadow: inset 5px 5px 6px #c8d0e7, inset -3px -3px 6px #fff;
+}
+
+.rgb:active {
+    box-shadow: inset 3px 3px 6px #c8d0e7, inset -3px -3px 6px #fff;
+}
+
+.colorPicker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    color: #00c49a;
+    /* text-shadow: 2px 2px #585858; */
+    font-family: 'Share Tech', sans-serif;
+}
+
+#color{
+    margin-top: 5px;
+    /* margin-bottom: 0px; */
+    width: 80px;
+    height: 30px;
+    box-shadow: 3px 3px;
+}
+
+#color:hover{
+    transform: scale(1.1);
+}
+
+#color:active{
+    transform: scale(1.2);
+}
+
+#rgbBtn{
+    color: #efefef;
+    background: linear-gradient(to right, #16f4d0, #429ea6, #153b50);
+}
+
+.sliderAndValue{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+#slider{
+    -webkit-appearance: none;
+    background: #156064;
+    outline: none;
+    border-radius: 50px;
+    width: 127px;
+    margin: 0;
+}
+
+#slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none; 
+    width: 25px; 
+    height: 25px;
+    border: 0; 
+    background: white; 
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#slider::-moz-range-thumb{
+    width: 25px; 
+    height: 25px; 
+    border: 0;
+    background: white;
+    border-radius: 50px;
+    border: 3px solid #c8d0e7;
+    cursor: pointer;
+}
+
+.value{
+    font-size: 20px;
+    padding-left: 5px;
+    color: #00c49a;
+    /* text-shadow: 2px 2px #585858; */
+    font-family: 'Share Tech', sans-serif;
+}
+
+.grid{
+    margin-top: 0px;
+    margin-left: 20px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 2fr);
+    grid-template-rows: repeat(16, 2fr);
+    border: none !important;
+    /* border: 5px solid #585858; */
+    border-radius: 5px;
+    height: 575px;
+    width: 575px;
+    background-color: white;
+    box-shadow: 10px 10px #156064;
+}
+
+.cell{
+    background-color: white;
+    border: 1px solid #efefef;
+}
+
+footer{
+    font-size: 25px;
+    bottom: 0;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+/* a{
+    text-decoration: none;
+    color: #156064;
+    font-size: 25px;
+    font-family: 'Share Tech', sans-serif;
+}
+
+a:hover{
+    color: #ffdd4a;
+}
+
+#gh-logo{
+    width: 40px;
+    height: auto;
+    margin-bottom: -8px;
+    margin-right: 10px;
+} */
