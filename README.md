@@ -28,6 +28,9 @@ The objective of this project is to apply what we learn about DOM manipulation a
 - [Removing all child nodes](https://www.javascripttutorial.net/dom/manipulating/remove-all-child-nodes/)
 - [Random Color Generator](https://stackoverflow.com/questions/1484506/random-color-generator)
 
+### License
 
+- [MIT License](https://opensource.org/licenses/MIT)
+- Copyright &copy; 2022 Abbey Santos (AbbeyIT)
 
 
